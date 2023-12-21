@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Bahnschrift";
+  src: url(./fon/bahnschrift.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bahnschrift";
+}
+
+body {
+  background-color: #a89;
+}
+
+.main {
+  width: 80vw;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header {
+  width: 98%;
+  height: 15vh;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #000;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 50px;
+  color: #fff;
+  margin-left: 40px;
+  transform: rotate(0deg);
+  transition: 0.1s;
+}
+
+.header-title:hover {
+  transform: rotate(-5deg);
+}
+
+.main-form {
+  width: 98%;
+  height: 10vh;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  width: 80%;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-select {
+  width: 10%;
+  height: 40%;
+  margin-left: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.main-content {
+  width: 95%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.content-search {
+  width: 20%;
+  height: 120px;
+  border-radius: 5px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.search-button,
+.form-button {
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: 0.1s;
+}
+
+.search-button:hover,
+.form-button:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #000;
+  transition: 0.1s;
+}
+
+.search-input {
+  width: 80%;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.content-notes {
+  width: 70%;
+  height: 100%;
+}
+
+.notes-item {
+  width: 90%;
+  height: 120px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.item-text {
+  width: 95%;
+  margin-left: 20px;
+  font-size: 10px;
+  word-break: break-all;
+}
